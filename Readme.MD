@@ -18,12 +18,10 @@ This project demonstrates a Convolutional Neural Network (CNN) trained to recogn
 
 ## Project Structure
 ```
-├── data/                # Dataset (optional, MNIST loads via Keras by default)
-├── models/              # Saved trained models (e.g., model.h5)
+├── models/              # Saved trained models 
 ├── notebooks/
 │   └── train.ipynb      # Notebook to train, evaluate, and save the CNN
 ├── src/
-│   ├── predict.py       # Preprocessing & prediction helper functions
 │   └── app.py           # Interactive drawing application
 │
 ├── requirements.txt     # Python dependencies
