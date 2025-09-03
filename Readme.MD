@@ -1,28 +1,41 @@
-## Handwritten Digit Recognition with a Neural Network and Interactive Drawing App
+# Handwritten Digit Recognition with CNN and Drawing App
 
-In this project, I implemented a Convolutional Neural Network (CNN) to recognize handwritten digits (0–9). The model was trained on the MNIST dataset, which contains 28x28 grayscale images of digits.
+This project demonstrates a Convolutional Neural Network (CNN) trained to recognize handwritten digits (0–9) using the MNIST dataset. After training, the model is integrated into a small interactive application that lets users draw digits on a canvas and instantly get predictions from the network.
 
-After training the CNN, I developed a simple interactive application that allows users to draw a digit on a canvas. The drawing is processed, resized to the correct input dimensions, and then passed to the trained CNN, which predicts the digit in real time.
+## Project Overview
 
-The work was divided into three main parts:
+Dataset: MNIST (28x28 grayscale images of digits 0–9)
 
-Data Preparation & Model Training
+Model: CNN trained to classify handwritten digits
 
-Loading and preprocessing the MNIST dataset.
+App: Interactive interface where users can draw digits and receive predictions in real time
 
-Designing, training, and evaluating the CNN.
+## Features
 
-Model Deployment
+Training a CNN on MNIST with high accuracy
 
-Saving the trained model and reusing it in the application environment.
+Saving and reusing the trained model
 
-Interactive Drawing App
+Drawing canvas for user input
 
-Building a graphical interface with a drawing canvas.
+Automatic preprocessing of drawings to match the CNN input
 
-Preprocessing the user’s input to fit the CNN format.
+Real-time digit prediction
 
-Displaying the predicted digit instantly.
+## Project Structure
+```
+├── data/                # Dataset (optional, MNIST loads via Keras by default)
+├── models/              # Saved trained models (e.g., model.h5)
+├── notebooks/
+│   └── train.ipynb      # Notebook to train, evaluate, and save the CNN
+├── src/
+│   ├── predict.py       # Preprocessing & prediction helper functions
+│   └── app.py           # Interactive drawing application
+│
+├── requirements.txt     # Python dependencies
+└── README.md            # Project documentation
+```
 
-Outcome:
-The result is a trained CNN with strong accuracy on MNIST, integrated into an interactive app where users can freely draw digits and immediately see the model’s prediction.
+## Outcome
+
+The final result is a CNN with strong classification performance on MNIST, deployed in a user-friendly app that allows anyone to draw a digit and immediately see the predicted result.
