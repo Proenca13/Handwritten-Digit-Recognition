@@ -4,11 +4,9 @@ This project demonstrates a Convolutional Neural Network (CNN) trained to recogn
 
 ## Project Components
   
-  Dataset: MNIST (28x28 grayscale images of digits 0–9)
-  
-  Model: CNN trained to classify handwritten digits
-  
-  App: Interactive interface where users can draw digits and receive predictions in real time
+  - Dataset: MNIST (28x28 grayscale images of digits 0–9)
+  - Model: CNN trained to classify handwritten digits
+  -App: Interactive interface where users can draw digits and receive predictions in real time
 
 ## Features
   
