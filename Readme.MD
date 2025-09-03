@@ -22,6 +22,7 @@ This project demonstrates a Convolutional Neural Network (CNN) trained to recogn
 ├── notebooks/
 │   └── train.ipynb      # Notebook to train, evaluate, and save the CNN
 ├── src/
+|   ├── predict.py       # Preprocessing & prediction helper functions
 │   └── app.py           # Interactive drawing application
 │
 ├── requirements.txt     # Python dependencies
