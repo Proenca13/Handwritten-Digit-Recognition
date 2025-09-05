@@ -51,6 +51,8 @@ python app.py
 
 The final result is a CNN with strong classification performance on MNIST, deployed in a user-friendly app that allows anyone to draw a digit and immediately see the predicted result.
 
+![Predictions](images/prediction_examples.png)
+
 ## Demo
 
 ![Demo](images/app_demo.gif)
