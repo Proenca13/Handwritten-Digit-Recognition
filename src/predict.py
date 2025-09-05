@@ -16,7 +16,5 @@ def preprocessing_image(image):
 def predict_digit(image):
     preprocessed_image = preprocessing_image(image)
     prediction = model.predict(preprocessed_image)
-    print(prediction)
     predicted_class = np.argmax(prediction)
-    print(predicted_class)
     return predicted_class

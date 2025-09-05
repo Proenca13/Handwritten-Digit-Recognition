@@ -18,17 +18,39 @@ This project demonstrates a Convolutional Neural Network (CNN) trained to recogn
 
 ## Project Structure
 ```
+├── images/              # Screenshots and demo media
+│   ├── app_demo.gif     # Demo video
+│   └── prediction_examples.png   # Screenshots of the model predictions 
 ├── models/              # Saved trained models 
 ├── notebooks/
 │   └── train.ipynb      # Notebook to train, evaluate, and save the CNN
 ├── src/
 |   ├── app.py           # Interactive drawing application
 │   └── predict.py       # Preprocessing & prediction helper functions
-│
+│         
+│   
 ├── README.md            # Project documentation
 └── requirements.txt     # Python dependencies
 ```
 
+## Installation & Usage
+### Install dependencies:
+```
+pip install -r requirements.txt
+```
+### Train the model:
+```
+jupyter notebook notebooks/train.ipynb  
+```
+### Install dependencies:
+```
+cd src
+python app.py
+```
 ## Outcome
 
 The final result is a CNN with strong classification performance on MNIST, deployed in a user-friendly app that allows anyone to draw a digit and immediately see the predicted result.
+
+## Demo
+
+![Demo](images/app_demo.gif)
